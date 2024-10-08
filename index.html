@@ -1,0 +1,64 @@
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My page</title>
+</head>
+<body>
+    <h1>Bom dia,<span id="nome"></span></h1>
+
+
+
+
+
+        document.getElementById("nome").innerText = nome
+    </script>
+        
+
+    
+</body>
+</html>
+
+<!-- Explicação Passo a Passo
+
+Declaração do Tipo de Documento (<!DOCTYPE html>):
+Especifica que o documento está usando HTML5.
+
+Elemento <html lang="en">:
+Inicia o documento HTML e define a linguagem do conteúdo como inglês (o atributo lang="en" indica isso).
+
+Elemento <head>:
+Contém metadados sobre o documento e links para recursos externos.
+
+<meta charset="UTF-8">:
+Define a codificação de caracteres como UTF-8, que suporta uma ampla gama de caracteres de diferentes idiomas.
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">:
+Define a configuração da viewport para garantir que o layout seja renderizado corretamente em dispositivos móveis. width=device-width ajusta a largura da página para a largura da tela do dispositivo, e initial-scale=1.0 define o nível inicial de zoom.
+
+<title>Minha pagina</title>:
+Define o título da página, que aparece na aba do navegador.
+
+Elemento <body>:
+Contém todo o conteúdo visível da página.
+
+<h1>Bom dia, <span id="nome"></span></h1>:
+Um título de nível 1 (<h1>) que contém o texto "Bom dia," seguido por um elemento <span> com o id="nome". Esse <span> 
+é usado para inserir dinamicamente o nome da pessoa usando JavaScript.
+
+Elemento <script type="text/javascript">:
+Inicia um bloco de código JavaScript.
+
+var nome = "Rodrigo";:
+Declara uma variável nome e atribui a ela o valor "Rodrigo".
+document.getElementById("nome").innerText = nome;:
+document.getElementById("nome"): Acessa o elemento HTML com o id="nome".
+
+.innerText = nome: Define o conteúdo de texto do elemento acessado para o valor da variável nome, que é "Rodrigo".
+Esse trecho de código insere o nome "Rodrigo" no <span> com id="nome", resultando na exibição do texto "Bom dia, Rodrigo" na página.
+
+Resumo
+Este código HTML cria uma página simples que exibe uma saudação personalizada usando JavaScript. O conteúdo "Bom dia, Rodrigo" é
+ gerado dinamicamente ao atribuir o valor da variável nome ao texto dentro do elemento <span> com id="nome". 
+Isso demonstra como usar JavaScript para manipular o DOM (Document Object Model) de uma página HTML. -->
